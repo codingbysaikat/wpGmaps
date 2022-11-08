@@ -24,16 +24,7 @@ function gmaps_loaded_textdomin()
 add_action('plugin_loaded', 'gmaps_loaded_textdomin');
 
 
-
-
-
-
-
-
-
-
-function gmaps_display($attr)
-{
+function gmaps_display($attr){
     $defults = array(
         'place' => 'khulna',
         'zoom' => '14',
